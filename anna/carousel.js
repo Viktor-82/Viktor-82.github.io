@@ -1,4 +1,4 @@
-let radius = 200;
+let radius = 180;
 let autoRotate = true;
 let rotateSpeed = -60;
 let imgWidth = 140;
