@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="carousel.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="carousel">
+    <div id="drag-container">
+        <div id="spin-container">
+<!--            <a href="/photo-large.jpg"><img src="/photo-small.jpg" alt="" /></a>-->
+            <!-- Еще фото -->
+            <img src="img/1.jpg" alt="" /></a>
+            <img src="img/2.jpg" alt="" /></a>
+            <img src="img/3.jpg" alt="" /></a>
+            <img src="img/4.jpg" alt="" /></a>
+            <img src="img/5.jpg" alt="" /></a>
+            <img src="img/6.jpg" alt="" /></a>
+
+            <p>Anna</p>
+        </div>
+        <div id="ground"></div>
+    </div>
+</div>
+<!--Если в карусели не используются ссылки, а только фотографии, то:
+
+В HTML убираем ссылки
+В CSS удаляем класс #drag-container img и заменяем #drag-container a на #drag-container img
+В JS заменяем let aImg = ospin.getElementsByTagName("a"); на let aImg = ospin.getElementsByTagName("img");-->
+<script src="carousel.js"></script>
+</body>
+</html>
